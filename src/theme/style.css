@@ -1,0 +1,135 @@
+/*
+Name: SGH
+URI: https://github.com/geraked/phpscript-sgh
+Author: Rabist - Geraked
+Author URI: https://www.linkedin.com/in/rabist
+Description: PHP Script for Loan Fund Management
+Version: 1.5.0
+*/
+
+.datepicker.dropdown-menu th {
+    padding-bottom: 10px;
+}
+.input-daterange input {
+    border-radius: 0 !important;
+}
+.avatar-groupe {
+    display: inline-block;
+    position: relative;
+}
+.avatar-groupe .btn {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border: 3px solid #f2f2f2;
+    border-radius: 50%;
+}
+.avatar-groupe img {
+    border: 5px solid #f2f2f2;
+}
+.sidebar-collapse .user-panel .image img {
+    width: 30px;
+    height: 30px;
+}
+.user-panel > .image > img {
+    width: 45px;
+    height: 45px;
+}
+div.dataTables_wrapper table {
+    width: 100% !important;
+}
+div.dataTables_wrapper thead th,
+.sgh-admin-panel div.dataTables_wrapper tbody td:last-child {
+    text-align: center;
+}
+div.dataTables_wrapper .turn-num td:first-child {
+    width: 1%;
+    white-space: nowrap;
+    text-align: center;
+}
+#ambirth_date,
+#alcreate_date,
+#amjoin_date,
+#atcreate_date input {
+    border-radius: 0;
+}
+
+.content-wrapper {
+    position: relative;
+}
+
+#loading {
+    background: #fff;
+    z-index: 999;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.lds-ring {
+    width: 80px;
+    height: 80px;
+    transform: translateY(-50%);
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #222d32 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    div.dataTables_wrapper .col-sm-6:last-child {
+        text-align: left;
+    }
+    div.dataTables_wrapper div.dataTables_filter {
+        text-align: right;
+    }
+    div.dataTables_wrapper div.dataTables_paginate {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    div.dataTables_wrapper .col-sm-6 {
+        text-align: center;
+    }
+    div.dataTables_wrapper div.dataTables_info {
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+    div.dataTables_wrapper div.dataTables_filter {
+        padding-bottom: 5px;
+    }
+}
+
+body {
+    overflow-y: scroll !important;
+}

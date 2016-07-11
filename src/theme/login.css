@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "yekan";
+    src: url(dist/css/fonts/Yekan.eot);
+    src: url(dist/css/fonts/Yekan.eot?#iefix) format("embedded-opentype"),
+        url(dist/css/fonts/Yekan.woff) format("woff"),
+        url(dist/css/fonts/Yekan.ttf) format("truetype"),
+        url(dist/css/fonts/Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+a:visited,
+a:focus {
+    text-decoration: none;
+}
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+    outline-offset: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    font-family: "yekan";
+    background: #1a3d58 !important;
+}
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+form[role="login"] {
+    font: 16px/1.6em;
+    color: #919191;
+    background: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 50px 25px 50px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+form[role="login"] > section {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2em;
+}
+form[role="login"] section a {
+    color: #3796ba;
+}
+form[role="login"] h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #757575;
+    padding: 35px 0 12px 0;
+}
+form[role="login"] h3 b {
+    color: #013781;
+}
+form[role="login"] span.glyphicon {
+    color: #757575;
+}
+form[role="login"] input,
+form[role="login"] button {
+    font-size: 16px;
+    margin: 5px 0;
+}
+form[role="login"] input {
+    color: #757575;
+    background: #fafafa;
+    border: none;
+    padding-left: 40px;
+    border: 1px solid #ededed;
+}
+form[role="login"] input::-webkit-input-placeholder {
+    color: #959595;
+}
+form[role="login"] input:-moz-placeholder {
+    color: #959595;
+}
+form[role="login"] input::-moz-placeholder {
+    color: #959595;
+}
+form[role="login"] input:-ms-input-placeholder {
+    color: #959595;
+}
+form[role="login"] button {
+    line-height: 30px;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(24, 121, 158, 1);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(24, 121, 158, 1);
+    box-shadow: 0px 3px 0px 0px rgba(24, 121, 158, 1);
+    background: #3796ba;
+    border: none;
+}
+form[role="login"] button:hover {
+    background: #4eaccf;
+}
+.login-form .form-control {
+    padding-left: 40px;
+}
+.login-form .form-control + .glyphicon {
+    position: absolute;
+    left: 0;
+    top: 22%;
+    padding: 6px 0 0 27px;
+}
+.err {
+    color: red;
+}

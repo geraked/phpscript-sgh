@@ -1,0 +1,38 @@
+body { 
+	font-size: 12px;
+	font-family: 'XB Riyaz';
+}
+h1 {
+	text-align: center;
+	margin: 0;
+	font-size: 13px;
+}
+#header {
+	border: 1px solid;
+	width: 100%;
+	margin-bottom: 10px
+}
+#header .col-md-6 {
+	width: 50%;
+	float: right;
+}
+#header .col-md-6 p {
+	margin: 0;
+	padding: 1px 5px;
+}
+.table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table, .table th, .table td {
+	border: 1px solid black;
+}
+.table th, .table td {
+	padding: 7px
+}
+.table tr:nth-child(even) {background-color: #f2f2f2}
+.table th {
+	background-color: #4CAF50;
+	color: white;
+}	
