@@ -15,12 +15,16 @@ The default username and password for admin page is `admin`. After the first log
 ## Demo
 The demo restores once a day.
 
-[**Member Page**](https://geraked.ir/portfolio/scripts/sgh)
+[**Member Page**](https://geraked.ir/portfolio/scripts/sgh/)
+
 username: test
+
 password: test
 
-[**Admin Page**](https://geraked.ir/portfolio/scripts/sgh/admin)
+[**Admin Page**](https://geraked.ir/portfolio/scripts/sgh/admin/)
+
 username: admin
+
 password: admin
 
 ## Author
